@@ -1,3 +1,4 @@
+
 /* Nav Bar CSS */
 
 
@@ -6,7 +7,11 @@
 
 
 /* Section CSS */
-
+#picture {
+    text-align: center
+    width: 100px;
+    height: 100px;
+}
 
 
 /* About Section CSS */
