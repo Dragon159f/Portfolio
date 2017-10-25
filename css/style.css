@@ -7,8 +7,10 @@
 
 
 /* Section CSS */
-#picture {
+body{
     text-align: center
+}
+#picture {
     width: 100px;
     height: 100px;
 }
