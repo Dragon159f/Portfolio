@@ -1,15 +1,17 @@
 
 /* Nav Bar CSS */
 
-
 /* Header CSS */
-
+h1 {
+    font-size: 50px;
+}
 
 
 /* Section CSS */
 body{
     text-align: center
 }
+
 #picture {
     width: 100px;
     height: 100px;
@@ -17,13 +19,24 @@ body{
 
 
 /* About Section CSS */
+#desc {
+    color: red;
+}
 
+#contact{
+    color: blue
+}
 
 
 /* Portfolio Item CSS */
+#projects{
+    color: green;
+}
 
-
-
+.thumbnail{
+    width: 300px;
+    height: 300px;
+}
 /* Footer CSS */
 
 
