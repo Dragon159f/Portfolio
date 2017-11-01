@@ -1,6 +1,10 @@
 
 /* Nav Bar CSS */
 
+.navbar{
+    position: static;
+    top: 0;
+}
 /* Header CSS */
 h1 {
     font-size: 50px;
@@ -34,8 +38,9 @@ body{
 }
 
 .thumbnail{
-    width: 300px;
-    height: 300px;
+    width: 100px;
+    height: 100px;
+    text-align: center;
 }
 /* Footer CSS */
 
