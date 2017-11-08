@@ -2,10 +2,10 @@
 /* Nav Bar CSS */
 
 .navbar{
-    position: static;
     top: 0;
+    background-color: #0EEADF;
 }
-/* Header CSS */
+
 h1 {
     font-size: 50px;
 }
@@ -13,14 +13,28 @@ h1 {
 
 /* Section CSS */
 body{
-    text-align: center
+    text-align: center;
+    height: auto;
+    clear: both;
 }
 
-#picture {
+.container{
+    margin-top: 56px;    
+}
+
+.row{
+    outline-style: solid;
+    outline-color: black;
+}
+#face {
     width: 100px;
     height: 100px;
+    text-align: center;
+    transform: rotate(90deg);
 }
-
+.title{
+    text-align: center;
+}
 
 /* About Section CSS */
 #desc {
@@ -37,10 +51,23 @@ body{
     color: green;
 }
 
+#tallpic{
+ width: 100px;
+ height: 200px;   
+}
+
+#madpic{
+ width: 200px;
+ height: 200px;
+}
+
 .thumbnail{
     width: 100px;
     height: 100px;
-    text-align: center;
+}
+
+.img-thumbnail{
+    background-color: #0EEADF;
 }
 /* Footer CSS */
 

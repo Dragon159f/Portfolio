@@ -1,15 +1,3 @@
-<!-- 
-    Class 1:
-        1.1 Wireframe your project
-        1.2 Fork and clone the repo and set up your project workspace
-    Class 2:  
-        2.1 Link your files in the head of the docment Add a Nav Bar to your site - It should have three links (Portfolio, About, and Contact) 
-        2.2 Add a div for each section. Within section add a contatiner div with the appropriate number of rows and columns
-    Class 3:  
-        3.1 Add thumbnails and other custom component (button, modal, font) using bootstrap Documentation 
-        3.2 Add CSS and add your site to gh-pages 
--->
-
 <!DOCTYPE html>
 <head>   
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
@@ -18,12 +6,12 @@
 </head>
 
 <body>
-    <!-- Nav Bar -->
-    <nav class="navbar navbar-expand-md navbar-light">    
+    
+    <nav class="navbar navbar-expand-md navbar-light fixed-top">    
         <div class="container-fluid">
-        <div class="navbar-header">
-            <a class="navbar-brand" href="#">Jason Giang's Portfolio</a>
-        </div>
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">Jason Giang's Portfolio</a>
+            </div>
             <ul class="nav navbar-nav">
                 <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
                 <li class="nav-item"><a class="nav-link" href="#">Description</a></li>
@@ -33,40 +21,53 @@
         </div>
     </nav>
     
-    <!-- Header -->
-    <h1>Portfolio</h1>
-
-    <!-- Portfolio Grid Section -->
-    <div class="img-thumbnail" class="col-md-12">
-        <a href="#">
-            <img src="shttps://i.imgur.com/qL2mEmm.jpg" id="picture" class="img-thumbnail">
-        </a>
-    </div>
-    <!-- About Section -->
-    <h2 id="desc">Description</h2>
-    <a href="#"></a>
-    <p>My name is Jason and I am a Junior currently going to Burton High School. My Hobbies are playing video games and watching Anime. Fun Fact about me is that I watch E-Sports, specifically about CS:GO(Counter Strike: Global Offensive).</p>
-
-    <!-- Contact Section -->
-    <h3 id="contact">Contact</h3>
-    <a href="#"></a>
-    <p>Number: 1(415)51*-****</p>
-    <p>Twitter:</p>
-
-    <!-- Footer -->
-    <h2 id="projects">Projects</h2>
-    <div class="img-thumbnail" class="col-md-12">
-        <a href="#">
-            <a href="https://popcode.org/?gist=4dee06221419f82c9f2cd185442a736c">        
-                <img src="https://i.imgur.com/zpbdkuC.png" class="img-thumbnail">
+    <div class="container">
+        <h1 class="title">Portfolio</h1>
+        <div>
+            <a href="#">
+                <img src=images/myface.pngs id="face">
             </a>
-        </a>
-    </div>
-    <div class="thumbnail">
-        <a href="#" class="cold-md-12"></a>
-        <a href="https://popcode.org/?gist=db9fd5567f00c48c519831a556a15ac1">
-            <img src="http://www.madlibs.com/content/themes/madlibs/dist/images/intro_logo.png" class="img-thumbnail">
-        </a>
+        </div>
+       
+        <h2 id="desc" class="title">Description</h2>
+        <a href="#"></a>
+        <p>My name is Jason and I am a Junior currently going to Burton High School. My Hobbies are playing video games and watching Anime. Fun Fact about me is that I watch E-Sports, specifically about CS:GO(Counter Strike: Global Offensive).</p>
+
+        <h3 id="contact" class="title">Contacts</h3>
+        <a href="#"></a>
+        <p>Number: 1(415)518-****</p>
+        <p>School: Burton High School</p>
+
+        <h2 id="projects" class="title">Projects</h2>
+        <div class="row">
+            <div class="col">
+                <div class="thumbnail tallpic">
+                    <a href="#">
+                        <a href="https://popcode.org/?gist=4dee06221419f82c9f2cd185442a736c">        
+                            <img src=images/inchestall.png class="img-thumbnail" class="rounded float-left">
+                        </a>
+                    </a>
+                    <div class="caption">
+                        <h3>How many inches tall are you?</h3>
+                        <p>guesses if it is close or far or exact from a foot.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="thumbnail" id="madpic">
+                        <a href="#"></a>
+                        <a href="https://popcode.org/?gist=db9fd5567f00c48c519831a556a15ac1">
+                            <img src="http://www.madlibs.com/content/themes/madlibs/dist/images/intro_logo.png" class="img-thumbnail" class="rounded float-left">
+                        </a>
+                        <div class="caption">
+                            <h3>Mad libs</h3>
+                            <p>Game about kanye and kim making a baby.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
 
