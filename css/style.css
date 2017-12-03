@@ -4,6 +4,7 @@
 .navbar{
     top: 0;
     background-color: #0EEADF;
+    width: 100%;
 }
 
 h1 {
@@ -14,61 +15,49 @@ h1 {
 /* Section CSS */
 body{
     text-align: center;
-    height: auto;
-    clear: both;
-}
-
-.container{
-    margin-top: 56px;    
 }
 
 .row{
-    outline-style: solid;
-    outline-color: black;
+    margin-bottom: 10px;
 }
 #face {
+    margin-top: 10px;
     width: 100px;
     height: 100px;
     text-align: center;
-    transform: rotate(90deg);
+/*    transform: rotate(90deg); */
 }
 .title{
+    font-weight: bold;
+}
+#blurb{
     text-align: center;
 }
 
 /* About Section CSS */
 #desc {
-    color: red;
-}
-
-#contact{
-    color: blue
-}
-
-
-/* Portfolio Item CSS */
-#projects{
     color: green;
 }
 
-#tallpic{
- width: 100px;
- height: 200px;   
+#contact{
+    color: red;
 }
 
-#madpic{
- width: 200px;
- height: 200px;
+/* Portfolio Item CSS */
+#projects{
+    color: blue;
 }
 
-.thumbnail{
-    width: 100px;
-    height: 100px;
+#starter{
+    height: 150px;
+    margin-left: 0px;
 }
 
-.img-thumbnail{
-    background-color: #0EEADF;
+h3{
+    color: orange;
 }
+
+
 /* Footer CSS */
 
 
