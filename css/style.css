@@ -46,7 +46,7 @@ body{
 
 /* Portfolio Item CSS */
 #projects{
-    color: blue;
+    color: #0000FF;
 }
 
 #starter{
@@ -55,7 +55,8 @@ body{
 }
 
 h3{
-    color: orange;
+    color: #ADD8E6
+;
 }
 
 
