@@ -54,12 +54,20 @@ body{
     margin-left: 0px;
 }
 
-h3{
-    color: #ADD8E6
-;
+#rpsGame{
+    color: yellow;   
 }
 
+#sharkAttack{
+    color: #ADD8E6;
+}
 
+#pigLatin{
+    color: pink;
+}
+#gif{
+    color: brown;
+}
 /* Footer CSS */
 
 
