@@ -33,8 +33,11 @@ body{
 }
 #blurb{
     text-align: center;
-}
 
+}
+.myInfo{
+    text-align: center;
+}
 /* About Section CSS */
 #desc {
     color: green;
@@ -55,18 +58,18 @@ body{
 }
 
 #rpsGame{
-    color: yellow;   
+    color: black;   
 }
 
 #sharkAttack{
-    color: #ADD8E6;
+    color: black;
 }
 
 #pigLatin{
-    color: pink;
+    color: black;
 }
 #gif{
-    color: brown;
+    color: black;
 }
 /* Footer CSS */
 
