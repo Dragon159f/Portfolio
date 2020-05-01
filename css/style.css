@@ -1,29 +1,77 @@
 
 /* Nav Bar CSS */
 
+.navbar{
+    top: 0;
+    background-color: #0EEADF;
+    width: 100%;
+}
 
-/* Header CSS */
-
+h1 {
+    font-size: 50px;
+}
 
 
 /* Section CSS */
 body{
-    text-align: center
+    text-align: center;
+    background-color: white;
 }
-#picture {
+
+.row{
+    margin-bottom: 10px;
+}
+#face {
+    margin-top: 10px;
     width: 100px;
     height: 100px;
+    text-align: center;
+     border-radius: 50%;
+/*    transform: rotate(90deg); */
+}
+.title{
+    font-weight: bold;
+}
+#blurb{
+    text-align: center;
+
+}
+.myInfo{
+    text-align: center;
+}
+/* About Section CSS */
+#about {
+    color: green;
 }
 
-
-/* About Section CSS */
-
-
+#contact{
+    color: red;
+}
 
 /* Portfolio Item CSS */
+#projects{
+    color: #0000FF;
+}
 
+#starter{
+    height: 150px;
+    margin-left: 0px;
+}
 
+#rpsGame{
+    color: black;   
+}
 
+#sharkAttack{
+    color: black;
+}
+
+#pigLatin{
+    color: black;
+}
+#gif{
+    color: black;
+}
 /* Footer CSS */
 
 
