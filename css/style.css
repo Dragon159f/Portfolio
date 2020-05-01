@@ -16,6 +16,7 @@ h1 {
 body{
     text-align: center;
     background-color: white;
+    padding-top: 65px; 
 }
 
 .row{
@@ -29,6 +30,12 @@ body{
      border-radius: 50%;
 /*    transform: rotate(90deg); */
 }
+
+.carousel-inner img {
+    margin: auto;
+    padding: 50px;
+  }
+
 .title{
     font-weight: bold;
 }
@@ -46,11 +53,13 @@ body{
 
 #contact{
     color: red;
+    margin-top: 50px;
 }
 
 /* Portfolio Item CSS */
 #projects{
     color: #0000FF;
+    margin-top: 50px;
 }
 
 #starter{
